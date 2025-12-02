@@ -1,0 +1,88 @@
+/* --- CONFIG & VARIABLES --- */
+:root {
+    --color-brand-dark: #0f2c4a;
+    --color-brand-main: #164e82;
+    --color-brand-light: #f0f9ff;
+    --color-brand-accent: #f59e0b;
+    --color-brand-accent-hover: #d97706;
+}
+
+/* Tailwind Custom Config Wrapper */
+/* Vì dùng CDN nên ta cấu hình config ngay trong JS hoặc dùng CSS variables để tái sử dụng nếu cần override */
+.text-brand-accent { color: var(--color-brand-accent); }
+.bg-brand-dark { background-color: var(--color-brand-dark); }
+.bg-brand-main { background-color: var(--color-brand-main); }
+.bg-brand-light { background-color: var(--color-brand-light); }
+.bg-brand-accent { background-color: var(--color-brand-accent); }
+.bg-brand-accentHover:hover { background-color: var(--color-brand-accent-hover); }
+
+/* --- GLOBAL STYLES --- */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--color-brand-main);
+    border-radius: 4px;
+}
+
+/* --- HERO SECTION --- */
+.hero-bg {
+    background: linear-gradient(170deg, var(--color-brand-dark) 0%, var(--color-brand-main) 60%, #0ea5e9 100%);
+}
+
+/* --- ANIMATIONS --- */
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+.animate-float {
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in-up {
+    animation: fadeInUp 0.8s ease-out forwards;
+}
+
+/* --- COMPONENT: NAV ITEM --- */
+.nav-item {
+    position: relative;
+    padding: 0.5rem 0;
+}
+.nav-item::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--color-brand-accent);
+    transition: width 0.3s;
+}
+.nav-item:hover::after, .nav-item.active::after {
+    width: 100%;
+}
+
+/* --- UTILITIES --- */
+.shadow-soft {
+    box-shadow: 0 10px 40px -10px rgba(0,0,0,0.08);
+}
+
+/* Fix Tailwind Config for CDN usage within CSS file (pseudo-classes) */
+/* Thông thường khi dùng Tailwind, ta viết class trực tiếp trong HTML. 
+   File CSS này dùng cho những style đặc thù hoặc thư viện bên ngoài */
