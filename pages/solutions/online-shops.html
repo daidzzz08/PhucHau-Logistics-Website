@@ -1,24 +1,22 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Giải Pháp Cho Shop Online - Phúc Hậu Logistics</title>
+    <title>Solutions for Online Shops - Phuc Hau Logistics</title>
     <link rel="icon" type="image/png" href="../../images/favicon.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <!-- Chú ý: Solutions cũng lùi 2 cấp thư mục -->
     <link rel="stylesheet" href="../../css/style.css">
 </head>
 <body class="font-sans text-slate-700 bg-slate-50 flex flex-col min-h-screen">
 
-<!-- HEADER CHUẨN (Dành cho file cấp 3 như pages/services/...) -->
 <header class="bg-white shadow-sm sticky top-0 z-50 transition-all duration-300" id="main-header">
     <div class="bg-brand-dark text-white text-xs py-2 border-b border-white/10 hidden md:block">
         <div class="container mx-auto px-4 flex justify-between items-center">
             <div class="flex space-x-6">
-                <span><i class="fa-solid fa-phone mr-2 text-brand-accent"></i>0396132089</span>
+                <span><i class="fa-solid fa-phone mr-2 text-brand-accent"></i>(+84) 396 132 089</span>
                 <span><i class="fa-solid fa-envelope mr-2 text-brand-accent"></i>support@phuchaulogistics.vn</span>
             </div>
             <div class="flex items-center space-x-4">
@@ -30,86 +28,79 @@
 
     <nav class="container mx-auto px-4 py-3">
         <div class="flex justify-between items-center">
-            <!-- LOGO: Về ../../index.html -->
             <a href="../../index.html" class="flex items-center group">
                 <div class="w-10 h-10 md:w-12 md:h-12 bg-brand-main rounded-lg flex items-center justify-center text-white mr-3 shadow-lg group-hover:rotate-6 transition duration-300">
                     <i class="fa-solid fa-truck-fast text-xl md:text-2xl"></i>
                 </div>
                 <div>
-                    <h1 class="text-xl md:text-2xl font-extrabold text-brand-dark leading-none">PHÚC HẬU</h1>
+                    <h1 class="text-xl md:text-2xl font-extrabold text-brand-dark leading-none">PHUC HAU</h1>
                     <p class="text-[10px] font-bold text-brand-main uppercase tracking-widest mt-0.5">Logistics</p>
                 </div>
             </a>
 
-            <!-- DESKTOP MENU -->
             <div class="hidden lg:flex space-x-6 font-semibold text-slate-600 text-sm uppercase tracking-wide items-center">
-                <a href="../../index.html" class="nav-item hover:text-brand-main transition">Trang chủ</a>
-                <a href="../about.html" class="nav-item hover:text-brand-main transition">Về chúng tôi</a>
+                <a href="../../index.html" class="nav-item hover:text-brand-main transition">Home</a>
+                <a href="../about.html" class="nav-item hover:text-brand-main transition">About Us</a>
                 
                 <div class="relative group h-full flex items-center">
                     <a href="../services.html" class="nav-item hover:text-brand-main transition flex items-center">
-                        Dịch vụ <i class="fa-solid fa-chevron-down ml-1 text-[10px]"></i>
+                        Services <i class="fa-solid fa-chevron-down ml-1 text-[10px]"></i>
                     </a>
                     <div class="absolute top-full left-0 w-60 bg-white shadow-xl rounded-lg py-2 mt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border-t-4 border-brand-accent transform translate-y-2 group-hover:translate-y-0">
-                        <!-- Lưu ý đường dẫn ngang hàng ../services/ -->
-                        <a href="../services/same-day.html" class="block px-4 py-2 hover:bg-brand-light hover:text-brand-main capitalize">Giao trong ngày</a>
-                        <a href="../services/cod.html" class="block px-4 py-2 hover:bg-brand-light hover:text-brand-main capitalize">Thu hộ COD</a>
-                        <a href="../services/warehouse.html" class="block px-4 py-2 hover:bg-brand-light hover:text-brand-main capitalize">Lưu kho & Xử lý</a>
+                        <a href="../services/same-day.html" class="block px-4 py-2 hover:bg-brand-light hover:text-brand-main capitalize">Same-day Delivery</a>
+                        <a href="../services/cod.html" class="block px-4 py-2 hover:bg-brand-light hover:text-brand-main capitalize">COD Collection</a>
+                        <a href="../services/warehouse.html" class="block px-4 py-2 hover:bg-brand-light hover:text-brand-main capitalize">Warehousing & Fulfillment</a>
                     </div>
                 </div>
 
                 <div class="relative group h-full flex items-center">
-                    <a href="../solutions.html" class="nav-item hover:text-brand-main transition flex items-center">
-                        Giải pháp <i class="fa-solid fa-chevron-down ml-1 text-[10px]"></i>
+                    <a href="../solutions.html" class="nav-item text-brand-main active flex items-center">
+                        Solutions <i class="fa-solid fa-chevron-down ml-1 text-[10px]"></i>
                     </a>
                     <div class="absolute top-full left-0 w-60 bg-white shadow-xl rounded-lg py-2 mt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border-t-4 border-brand-accent transform translate-y-2 group-hover:translate-y-0">
-                        <!-- Đường dẫn chéo sang ../solutions/ -->
-                        <a href="../solutions/online-shops.html" class="block px-4 py-2 hover:bg-brand-light hover:text-brand-main capitalize">Cho Shop Online</a>
-                        <a href="../solutions/sme.html" class="block px-4 py-2 hover:bg-brand-light hover:text-brand-main capitalize">Cho Doanh nghiệp SME</a>
+                        <a href="online-shops.html" class="block px-4 py-2 hover:bg-brand-light hover:text-brand-main capitalize">For Online Shops</a>
+                        <a href="sme.html" class="block px-4 py-2 hover:bg-brand-light hover:text-brand-main capitalize">For SMEs</a>
                     </div>
                 </div>
 
                 <div class="relative group h-full flex items-center">
                     <a href="../technology.html" class="nav-item hover:text-brand-main transition flex items-center">
-                        Công nghệ <i class="fa-solid fa-chevron-down ml-1 text-[10px]"></i>
+                        Technology <i class="fa-solid fa-chevron-down ml-1 text-[10px]"></i>
                     </a>
                     <div class="absolute top-full left-0 w-60 bg-white shadow-xl rounded-lg py-2 mt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border-t-4 border-brand-accent transform translate-y-2 group-hover:translate-y-0">
-                         <!-- Đường dẫn chéo sang ../technology/ -->
-                        <a href="../technology/tracking-system.html" class="block px-4 py-2 hover:bg-brand-light hover:text-brand-main capitalize"><i class="fa-solid fa-magnifying-glass mr-2"></i>Tra cứu đơn hàng</a>
+                         <a href="../technology/tracking-system.html" class="block px-4 py-2 hover:bg-brand-light hover:text-brand-main capitalize"><i class="fa-solid fa-magnifying-glass mr-2"></i>Order Tracking</a>
                     </div>
                 </div>
 
-                <a href="../pricing.html" class="nav-item hover:text-brand-main transition">Bảng giá</a>
-                <a href="../contact.html" class="bg-brand-accent hover:bg-brand-accentHover text-white px-5 py-2.5 rounded-full font-bold shadow-lg transition transform hover:-translate-y-0.5">Đăng ký</a>
+                <a href="../pricing.html" class="nav-item hover:text-brand-main transition">Pricing</a>
+                <a href="../contact.html" class="bg-brand-accent hover:bg-brand-accentHover text-white px-5 py-2.5 rounded-full font-bold shadow-lg transition transform hover:-translate-y-0.5">Register</a>
             </div>
 
-            <!-- Mobile Menu Button -->
             <button id="mobile-menu-btn" class="lg:hidden text-brand-dark text-2xl focus:outline-none">
                 <i class="fa-solid fa-bars"></i>
             </button>
         </div>
     </nav>
 
-    <!-- MOBILE MENU -->
     <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-slate-100 absolute w-full left-0 shadow-xl overflow-y-auto max-h-[80vh]">
         <div class="flex flex-col p-4 space-y-2 font-medium text-slate-700">
-            <a href="../../index.html" class="block px-4 py-3 hover:bg-brand-light rounded-lg">Trang chủ</a>
-            <a href="../about.html" class="block px-4 py-3 hover:bg-brand-light rounded-lg">Về chúng tôi</a>
+            <a href="../../index.html" class="block px-4 py-3 hover:bg-brand-light rounded-lg">Home</a>
+            <a href="../about.html" class="block px-4 py-3 hover:bg-brand-light rounded-lg">About Us</a>
             
             <div class="pl-4 border-l-2 border-slate-100 ml-4">
-                <p class="text-xs text-gray-400 font-bold uppercase py-1">Dịch vụ</p>
-                <a href="../services.html" class="block py-2 text-sm hover:text-brand-main">Tất cả dịch vụ</a>
-                <a href="../services/same-day.html" class="block py-2 text-sm hover:text-brand-main">Giao trong ngày</a>
+                <p class="text-xs text-gray-400 font-bold uppercase py-1">Services</p>
+                <a href="../services.html" class="block py-2 text-sm hover:text-brand-main">All Services</a>
+                <a href="../services/same-day.html" class="block py-2 text-sm hover:text-brand-main">Same-day Delivery</a>
             </div>
 
             <div class="pl-4 border-l-2 border-slate-100 ml-4">
-                <p class="text-xs text-gray-400 font-bold uppercase py-1">Công nghệ</p>
-                <a href="../technology.html" class="block py-2 text-sm hover:text-brand-main">Tổng quan</a>
-                <a href="../technology/tracking-system.html" class="block py-2 text-sm hover:text-brand-main text-brand-accent">Tra cứu đơn hàng</a>
+                <p class="text-xs text-gray-400 font-bold uppercase py-1">Technology</p>
+                <a href="../technology.html" class="block py-2 text-sm hover:text-brand-main">Overview</a>
+                <a href="../technology/tracking-system.html" class="block py-2 text-sm hover:text-brand-main text-brand-accent">Order Tracking</a>
             </div>
 
-            <a href="../pricing.html" class="block px-4 py-3 hover:bg-brand-light rounded-lg">Bảng giá</a>
-            <a href="../contact.html" class="block px-4 py-3 bg-brand-accent text-white rounded-lg text-center mt-2">Đăng ký ngay</a>
+            <a href="../pricing.html" class="block px-4 py-3 hover:bg-brand-light rounded-lg">Pricing</a>
+            <a href="../contact.html" class="block px-4 py-3 bg-brand-accent text-white rounded-lg text-center mt-2">Sign Up Now</a>
         </div>
     </div>
 </header>
@@ -117,44 +108,44 @@
     <main class="flex-grow">
         <div class="container mx-auto px-4 py-12">
             <div class="text-sm text-slate-400 mb-8">
-                <a href="../../index.html" class="hover:text-brand-main">Trang chủ</a> <span class="mx-2">/</span> 
-                <a href="../solutions.html" class="hover:text-brand-main">Giải pháp</a> <span class="mx-2">/</span>
-                <span class="text-brand-dark font-bold">Shop Online</span>
+                <a href="../../index.html" class="hover:text-brand-main">Home</a> <span class="mx-2">/</span> 
+                <a href="../solutions.html" class="hover:text-brand-main">Solutions</a> <span class="mx-2">/</span>
+                <span class="text-brand-dark font-bold">Online Shops</span>
             </div>
 
             <div class="grid lg:grid-cols-3 gap-12">
                 <div class="lg:col-span-2">
-                    <h1 class="text-3xl md:text-4xl font-bold text-brand-dark mb-6">Bạn đồng hành của các Shop Online</h1>
+                    <h1 class="text-3xl md:text-4xl font-bold text-brand-dark mb-6">The Best Companion for Online Shops</h1>
                     
                     <div class="prose max-w-none text-slate-600 leading-relaxed">
                         <div class="bg-red-50 p-6 rounded-lg border-l-4 border-red-500 mb-8">
-                            <h3 class="text-xl font-bold text-red-700 mb-2">Vấn đề bạn đang gặp phải?</h3>
-                            <p>Bạn bán hàng trên Facebook/TikTok nhưng đau đầu vì shipper tự do (Grab, ship ngoài) giá cao lại hay bùng đơn? Khách hàng phàn nàn vì thái độ shipper "lồi lõm"?</p>
+                            <h3 class="text-xl font-bold text-red-700 mb-2">Facing these problems?</h3>
+                            <p>Are you selling on Facebook/TikTok but have headaches with freelance shippers (unstable prices, cancellation)? Customers complaining about rude delivery attitudes?</p>
                         </div>
 
-                        <h3 class="text-2xl font-bold text-brand-dark mb-4">Giải pháp từ Phúc Hậu</h3>
-                        <p class="mb-4">Chúng tôi cung cấp đội ngũ shipper "ruột", được đào tạo bài bản, mặc đồng phục chuyên nghiệp. Shipper không chỉ giao hàng, họ là đại sứ thương hiệu của shop bạn.</p>
+                        <h3 class="text-2xl font-bold text-brand-dark mb-4">Phuc Hau's Solution</h3>
+                        <p class="mb-4">We provide a team of "dedicated" shippers, well-trained and professionally uniformed. Our shippers are not just delivering goods; they are your brand ambassadors.</p>
 
                         <ul class="grid gap-6 md:grid-cols-2 mt-6">
                             <li class="bg-white p-4 shadow-sm rounded-lg border">
                                 <i class="fa-solid fa-user-shield text-brand-accent text-2xl mb-2"></i>
-                                <h4 class="font-bold text-brand-dark">Shipper thân thiện</h4>
-                                <p class="text-sm">Biết cách ứng xử, gọi điện nhẹ nhàng để giữ khách cho bạn.</p>
+                                <h4 class="font-bold text-brand-dark">Friendly Shippers</h4>
+                                <p class="text-sm">Polite behavior, gentle calls to ensure high successful delivery rates.</p>
                             </li>
                             <li class="bg-white p-4 shadow-sm rounded-lg border">
                                 <i class="fa-solid fa-shirt text-brand-accent text-2xl mb-2"></i>
-                                <h4 class="font-bold text-brand-dark">Hỗ trợ thử hàng</h4>
-                                <p class="text-sm">Sẵn sàng đợi khách thử quần áo, giày dép (nếu shop cho phép). Trả hàng ngay nếu không vừa.</p>
+                                <h4 class="font-bold text-brand-dark">Try-on Support</h4>
+                                <p class="text-sm">Willing to wait for customers to try on clothes/shoes (if allowed). Immediate return if they don't fit.</p>
                             </li>
                             <li class="bg-white p-4 shadow-sm rounded-lg border">
                                 <i class="fa-solid fa-motorcycle text-brand-accent text-2xl mb-2"></i>
-                                <h4 class="font-bold text-brand-dark">Lấy hàng tận nhà</h4>
-                                <p class="text-sm">Dù bạn chỉ có 1 đơn, chúng tôi vẫn đến tận nơi lấy hàng. Không quản nắng mưa.</p>
+                                <h4 class="font-bold text-brand-dark">Door-to-Door Pickup</h4>
+                                <p class="text-sm">Even if you have only 1 order, we come to pick it up. Rain or shine.</p>
                             </li>
                              <li class="bg-white p-4 shadow-sm rounded-lg border">
                                 <i class="fa-solid fa-hand-holding-dollar text-brand-accent text-2xl mb-2"></i>
-                                <h4 class="font-bold text-brand-dark">Không áp doanh số</h4>
-                                <p class="text-sm">Không cần cam kết sản lượng tối thiểu. Phù hợp cho người mới khởi nghiệp.</p>
+                                <h4 class="font-bold text-brand-dark">No Minimum Volume</h4>
+                                <p class="text-sm">No pressure on sales volume. Perfect for startups and small sellers.</p>
                             </li>
                         </ul>
                     </div>
@@ -162,15 +153,15 @@
 
                 <div>
                     <div class="bg-brand-main text-white p-8 rounded-2xl shadow-xl sticky top-24">
-                        <h3 class="text-xl font-bold mb-4">Ưu đãi cho Shop mới</h3>
+                        <h3 class="text-xl font-bold mb-4">New Shop Offer</h3>
                         <ul class="space-y-2 mb-6 text-sm">
-                            <li><i class="fa-solid fa-gift text-brand-accent mr-2"></i> Đồng giá 15k cho 5 đơn đầu tiên.</li>
-                            <li><i class="fa-solid fa-gift text-brand-accent mr-2"></i> Miễn phí túi đóng gói hàng.</li>
+                            <li><i class="fa-solid fa-gift text-brand-accent mr-2"></i> Flat rate 15k for the first 5 orders.</li>
+                            <li><i class="fa-solid fa-gift text-brand-accent mr-2"></i> Free packing bags.</li>
                         </ul>
                         <form class="space-y-4">
-                            <input type="text" placeholder="Tên Shop của bạn" class="w-full px-4 py-3 rounded-lg text-slate-800 focus:outline-none">
-                            <input type="text" placeholder="Số điện thoại" class="w-full px-4 py-3 rounded-lg text-slate-800 focus:outline-none">
-                            <button class="w-full bg-white text-brand-main font-bold py-3 rounded-lg transition shadow-lg hover:bg-gray-100">Nhận Ưu Đãi</button>
+                            <input type="text" placeholder="Your Shop Name" class="w-full px-4 py-3 rounded-lg text-slate-800 focus:outline-none">
+                            <input type="text" placeholder="Phone Number" class="w-full px-4 py-3 rounded-lg text-slate-800 focus:outline-none">
+                            <button class="w-full bg-white text-brand-main font-bold py-3 rounded-lg transition shadow-lg hover:bg-gray-100">Get Offer</button>
                         </form>
                     </div>
                 </div>
@@ -178,23 +169,21 @@
         </div>
     </main>
 
-<!-- FOOTER (Dành cho file cấp 3: services/..., technology/...) -->
 <footer class="bg-brand-dark text-white pt-16 pb-8 border-t border-white/10 mt-auto">
     <div class="container mx-auto px-4">
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
-            <!-- Cột 1 -->
             <div>
                 <div class="flex items-center mb-6">
                     <div class="w-10 h-10 bg-brand-main rounded flex items-center justify-center text-white mr-3 shadow-lg">
                         <i class="fa-solid fa-truck-fast text-xl"></i>
                     </div>
                     <div>
-                        <h2 class="text-xl font-extrabold uppercase leading-none">PHÚC HẬU</h2>
+                        <h2 class="text-xl font-extrabold uppercase leading-none">PHUC HAU</h2>
                         <span class="text-[10px] text-brand-accent tracking-widest font-bold">LOGISTICS</span>
                     </div>
                 </div>
                 <p class="text-blue-200 text-sm mb-6 leading-relaxed">
-                    Đối tác vận chuyển tin cậy tại Đà Nẵng. Giao hàng siêu tốc, đối soát minh bạch.
+                    Trusted delivery partner in Da Nang. Super-fast delivery, transparent reconciliation.
                 </p>
                 <div class="flex space-x-4">
                     <a href="https://www.facebook.com/profile.php?id=61584339388115" target="_blank" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#1877F2] hover:text-white transition duration-300">
@@ -209,47 +198,44 @@
                 </div>
             </div>
             
-            <!-- Cột 2 -->
             <div>
                 <h4 class="font-bold text-lg mb-6 text-brand-accent relative inline-block">
-                    Về Chúng Tôi
+                    About Us
                     <span class="absolute bottom-0 left-0 w-1/2 h-0.5 bg-brand-accent"></span>
                 </h4>
                 <ul class="space-y-3 text-sm text-blue-200">
-                    <li><a href="../about.html" class="hover:text-white hover:translate-x-1 transition-transform inline-block">Giới thiệu công ty</a></li>
-                    <li><a href="../services.html" class="hover:text-white hover:translate-x-1 transition-transform inline-block">Dịch vụ vận chuyển</a></li>
-                    <li><a href="../pricing.html" class="hover:text-white hover:translate-x-1 transition-transform inline-block">Bảng giá mới nhất</a></li>
-                    <li><a href="../technology.html" class="hover:text-white hover:translate-x-1 transition-transform inline-block">Công nghệ Tracking</a></li>
+                    <li><a href="../about.html" class="hover:text-white hover:translate-x-1 transition-transform inline-block">Company Introduction</a></li>
+                    <li><a href="../services.html" class="hover:text-white hover:translate-x-1 transition-transform inline-block">Transportation Services</a></li>
+                    <li><a href="../pricing.html" class="hover:text-white hover:translate-x-1 transition-transform inline-block">Latest Pricing</a></li>
+                    <li><a href="../technology.html" class="hover:text-white hover:translate-x-1 transition-transform inline-block">Tracking Technology</a></li>
                 </ul>
             </div>
 
-            <!-- Cột 3 -->
             <div>
                 <h4 class="font-bold text-lg mb-6 text-brand-accent relative inline-block">
-                    Dịch Vụ Hot
+                    Hot Services
                     <span class="absolute bottom-0 left-0 w-1/2 h-0.5 bg-brand-accent"></span>
                 </h4>
                 <ul class="space-y-3 text-sm text-blue-200">
-                    <li><a href="../services/same-day.html" class="hover:text-white hover:translate-x-1 transition-transform inline-block">Giao hàng trong ngày</a></li>
-                    <li><a href="../services/cod.html" class="hover:text-white hover:translate-x-1 transition-transform inline-block">Thu hộ COD & Đối soát</a></li>
-                    <li><a href="../services/warehouse.html" class="hover:text-white hover:translate-x-1 transition-transform inline-block">Lưu kho & Xử lý đơn</a></li>
+                    <li><a href="../services/same-day.html" class="hover:text-white hover:translate-x-1 transition-transform inline-block">Same-day Delivery</a></li>
+                    <li><a href="../services/cod.html" class="hover:text-white hover:translate-x-1 transition-transform inline-block">COD & Reconciliation</a></li>
+                    <li><a href="../services/warehouse.html" class="hover:text-white hover:translate-x-1 transition-transform inline-block">Warehousing & Fulfillment</a></li>
                 </ul>
             </div>
 
-            <!-- Cột 4 -->
             <div>
                 <h4 class="font-bold text-lg mb-6 text-brand-accent relative inline-block">
-                    Liên Hệ
+                    Contact Us
                     <span class="absolute bottom-0 left-0 w-1/2 h-0.5 bg-brand-accent"></span>
                 </h4>
                 <ul class="space-y-4 text-sm text-blue-200">
                     <li class="flex items-start">
                         <i class="fa-solid fa-location-dot mt-1 mr-3 text-brand-accent"></i> 
-                        <span>1497 Nguyễn Tất Thành, TP. Đà Nẵng</span>
+                        <span>1497 Nguyen Tat Thanh, Da Nang City</span>
                     </li>
                     <li class="flex items-center">
                         <i class="fa-solid fa-phone mr-3 text-brand-accent"></i> 
-                        <span>0396132089</span>
+                        <span>(+84) 396 132 089</span>
                     </li>
                     <li class="flex items-center">
                         <i class="fa-solid fa-envelope mr-3 text-brand-accent"></i> 
@@ -260,7 +246,7 @@
         </div>
         
         <div class="border-t border-white/10 pt-8 text-center text-xs text-blue-400 flex flex-col md:flex-row justify-between items-center">
-            <p>&copy; 2025 Phúc Hậu Logistics Group 4. All rights reserved.</p>
+            <p>&copy; 2025 Phuc Hau Logistics Group 4. All rights reserved.</p>
         </div>
     </div>
 </footer>
